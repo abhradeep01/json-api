@@ -1,0 +1,90 @@
+[
+    {
+        "projectName":"Online Vegetable Store",
+        "projectUi":"https://i.postimg.cc/W40htv6Y/vegetablestore.webp",
+        "technologies":[
+            {
+                "text":"HTML",
+                "color":"rgb(249 115 22)"
+            },
+            {
+                "text":"Css",
+                "color":"rgb(59 130 246)"
+            },
+            { 
+                "text":"Javascript",
+                "color":"rgb(234 179 8)"
+            }
+        ],
+        "github":"https://github.com/abhradeep01/vegetable-card.git",
+        "liveLink":""
+    },
+    {
+        "projectName":"E-commerce Store",
+        "projectUi":"https://i.postimg.cc/wjyt8Jtp/e-commercestore.webp",
+        "technologies":[
+            {
+                "text":"HTML",
+                "color":"rgb(249 115 22)"
+            },
+            {
+                "text":"Css",
+                "color":"rgb(59 130 246)"
+            },
+            { 
+                "text":"Javascript",
+                "color":"rgb(234 179 8)"
+            },
+            {
+                "text":"Tailwindcss",
+                "color":"rgb(20 184 166)"
+            },
+            {
+                "text":"React",
+                "color":"rgb(6 182 212)"
+            },
+            {
+                "text":"React-router-dom",
+                "color":"rgb(239 68 68)"
+            },
+            {
+                "text":"Redux-Toolkit",
+                "color":"rgb(139 92 246)"
+            }
+        ],
+        "github":"https://github.com/abhradeep01/ecommerce-tailwindcss.git",
+        "liveLink":""
+    },
+    {
+        "projectName":"Portfolio",
+        "projectUi":"https://i.postimg.cc/26Z6gf37/e-commercestore.webp",
+        "technologies":[
+            {
+                "text":"HTML",
+                "color":"rgb(249 115 22)"
+            },
+            {
+                "text":"Css",
+                "color":"rgb(59 130 246)"
+            },
+            { 
+                "text":"Javascript",
+                "color":"rgb(234 179 8)"
+            },
+            {
+                "text":"Tailwindcss",
+                "color":"rgb(20 184 166)"
+            },
+            {
+                "text":"React",
+                "color":"rgb(6 182 212)"
+            },
+            {
+                "text":"React-router-dom",
+                "color":"rgb(239 68 68)"
+            }
+        ],
+        "github":"https://github.com/abhradeep01/my-portfolio.git",
+        "liveLink":"https://abhradeepsportfolio.netlify.app/"
+    }
+]
