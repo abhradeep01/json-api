@@ -37,8 +37,7 @@ export const about = async (req,res) => {
 //projects function
 export const projects = async (req,res) => {
     try{
-        const file = fs.readFileSync('./data/projects.json','utf-8');
-        const jsonData = JSON.parse(file);
+        const file = JSON.parse(fs.readFileSync('./data/projects.json','utf-8'));
         res.status(200).send(file);
     }catch(err){
         console.log(err);
@@ -51,7 +50,7 @@ export const skills = async (req,res) => {
     try{
         const file = await fs.promises.open('./data/skills.json','r');
         const data = await file.readFile(file);
-        res.status(200).send(data);
+        res.status(200).send(JSON.parse(data));
         file.close();
     }catch(err){
         console.log(err);
