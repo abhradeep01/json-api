@@ -1,0 +1,32 @@
+[
+    {
+        "icon":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHBhdGggZmlsbD0iIzAwNzZiMiIgZD0iTTExNiAzSDEyYTguOTEgOC45MSAwIDAgMC05IDguOHYxMDQuNDJhOC45MSA4LjkxIDAgMCAwIDkgOC43OGgxMDRhOC45MyA4LjkzIDAgMCAwIDktOC44MVYxMS43N0E4LjkzIDguOTMgMCAwIDAgMTE2IDMiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEuMDYgNDguNzNoMTguMTFWMTA3SDIxLjA2em05LjA2LTI5YTEwLjUgMTAuNSAwIDEgMS0xMC41IDEwLjQ5YTEwLjUgMTAuNSAwIDAgMSAxMC41LTEwLjQ5bTIwLjQxIDI5aDE3LjM2djhoLjI0YzIuNDItNC41OCA4LjMyLTkuNDEgMTcuMTMtOS40MUMxMDMuNiA0Ny4yOCAxMDcgNTkuMzUgMTA3IDc1djMySDg4Ljg5Vjc4LjY1YzAtNi43NS0uMTItMTUuNDQtOS40MS0xNS40NHMtMTAuODcgNy4zNi0xMC44NyAxNVYxMDdINTAuNTN6Ii8+PC9zdmc+",
+        "text":"LinkedIn",
+        "link":"https://www.linkedin.com/in/abhradeep-debnath-59b975254",
+        "bgColor":""
+    },
+    {
+        "icon":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMyA3djVhMyAzIDAgMCAwIDYgMFY3aDFsNCA2Yy44MjQgMS4zMTkgMS45NDUgMiAzLjUgMmEzLjUgMy41IDAgMCAwIDAtN2MtMi4wMjcgMC0zLjEzNyAxLTMuNSAzYy0uMjQyIDEuMzMtLjkwOCA0LTIgOCIvPjwvc3ZnPg==",
+        "text":"Upwork",
+        "link":"https://upwork.com",
+        "bgColor":"rgb(22 163 74)"
+    },
+    {
+        "icon":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSItMi41IC0yIDI0IDI0Ij48ZyBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTE2LjI1IDE2LjI1di0xMGgtMTB2LS42MjVjMC0xLjAzNC44NDEtMS44NzUgMS44NzUtMS44NzVIMTBWMEg4LjEyNUE1LjYzIDUuNjMgMCAwIDAgMi41IDUuNjI1di42MjVIMFYxMGgyLjV2Ni4yNUgwVjIwaDguNzV2LTMuNzVoLTIuNVYxMGg2LjI4NXY2LjI1SDEwVjIwaDguNzV2LTMuNzV6Ii8+PGNpcmNsZSBjeD0iMTQuMzc1IiBjeT0iMS44NzUiIHI9IjEuODc1Ii8+PC9nPjwvc3ZnPg==",
+        "text":"Fiverr",
+        "link":"https://fiverr.com",
+        "bgColor":"rgb(34 197 94)"
+    },
+    {
+        "icon":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJtMTQuMDk2IDMuMDc2bDEuNjM0IDIuMjkyTDI0IDMuMDc2TTUuNTAzIDIwLjkyNGw0LjQ3NC00LjM3NGwtMi42OTItMi44OW02LjEzMy0xMC41ODRMMTEuMDI3IDUuMjNsNC4wMjIuMTVNNC4xMjQgMy4wNzdsLjg1NyAxLjc2bDQuNzM0LjI5NG0tMy4wNTggNy4wNzJsMy40OTctNi41MjJMMCA1LjEzbTcuMDY0IDcuNDg1bDMuMzAzIDMuNTQ4bDMuNjQzLTMuNTdsMS4xMy02LjY1MmwtNC40MzktLjIyOFoiLz48L3N2Zz4=",
+        "text":"Freelancer.com",
+        "link":"https://freelancer.com",
+        "bgColor":"rgb(14 165 233)"
+    },
+    {
+        "icon":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNOS4yOTQgNi45MjhMMTQuMzU3IDFoLTEuMkw4Ljc2MiA2LjE0N0w1LjI1IDFIMS4ybDUuMzEgNy43ODRMMS4yIDE1aDEuMmw0LjY0Mi01LjQzNkwxMC43NTEgMTVoNC4wNXpNNy42NTEgOC44NTJsLS41MzgtLjc3NUwyLjgzMiAxLjkxaDEuODQzbDMuNDU0IDQuOTc3bC41MzguNzc1bDQuNDkxIDYuNDdoLTEuODQzeiIvPjwvc3ZnPg==",
+        "text":"Twitter",
+        "link":"https://twitter.com/AbhradeepD74811",
+        "bgColor":"rgb(0 0 0)"
+    }
+]
