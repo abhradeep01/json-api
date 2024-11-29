@@ -57,3 +57,8 @@ export const skills = async (req,res) => {
         return res.status(500).json({error:"internal server error"})
     }
 }
+
+//wrong route
+export const wrongRoute = async (req,res) =>{
+    return res.status(404).send(`/${req.params[0]} route not found`)
+}

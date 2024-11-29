@@ -1,5 +1,5 @@
 import express from 'express';
-import { about, home, projects, skills } from '../controllers/main.controllers.js';
+import { about, home, projects, skills, wrongRoute } from '../controllers/main.controllers.js';
 //router
 const router = express.Router();
 
@@ -19,4 +19,7 @@ router.get('/projects',projects);
 // "/skills" path for skill data
 router.get('/skills',skills);
 
+
+//for wrong route
+router.get('/*',wrongRoute)
 export default router;
