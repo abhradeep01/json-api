@@ -4,19 +4,19 @@ import { about, home, projects, skills } from '../controllers/main.controllers.j
 const router = express.Router();
 
 
-// "/" path content data
+// "/" path for home data
 router.get('/',home);
 
 
-// "/about" path data
+// "/about" path for about data
 router.get('/about',about);
 
 
-// "/projects" path data
+// "/projects" path for project data
 router.get('/projects',projects);
 
 
-// "/skills" path data
+// "/skills" path for skill data
 router.get('/skills',skills);
 
 export default router;
