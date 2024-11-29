@@ -3,12 +3,12 @@ import fs from 'fs';
 //home function
 export const home = async (req,res) => {
     try{
-        const file = JSON.parse(fs.readFileSync('./data/info.json','utf-8'));
+        const header = JSON.parse(fs.readFileSync('./data/info.json','utf-8'));
         const skillsData = fs.readFileSync('./data/skills.json','utf-8');
         const projectData = fs.readFileSync('./data/projects.json','utf-8');
         const platforms = JSON.parse(fs.readFileSync('./data/platforms.json','utf-8'));
         return res.status(200).send({
-            file,
+            header,
             platforms,
             skills:JSON.parse(skillsData),
             projects:JSON.parse(projectData)
