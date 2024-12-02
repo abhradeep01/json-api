@@ -1,16 +1,15 @@
 import fs from 'fs';
-
+const header = JSON.parse(fs.readFileSync('./data/info.json','utf-8'));
+const aboutData = JSON.parse(fs.readFileSync('./data/about.json','utf-8'));
+const skillsData = JSON.parse(fs.readFileSync('./data/skills.json','utf-8'));
+const projectData = JSON.parse(fs.readFileSync('./data/projects.json','utf-8'));
+const platforms = JSON.parse(fs.readFileSync('./data/platforms.json','utf-8'));
 //home function
 export const home = async (req,res) => {
     try{
-        const header = JSON.parse(fs.readFileSync('./data/info.json','utf-8'));
-        const about = JSON.parse(fs.readFileSync('./data/about.json','utf-8'));
-        const skillsData = JSON.parse(fs.readFileSync('./data/skills.json','utf-8'));
-        const projectData = JSON.parse(fs.readFileSync('./data/projects.json','utf-8'));
-        const platforms = JSON.parse(fs.readFileSync('./data/platforms.json','utf-8'));
         return res.status(200).send({
             header,
-            about,
+            aboutData,
             platforms,
             skillsData,
             projectData
@@ -24,10 +23,8 @@ export const home = async (req,res) => {
 //about function
 export const about = async (req,res) => {
     try{
-        const about = JSON.parse(fs.readFileSync('./data/about.json','utf-8'));
-        const platforms = JSON.parse(fs.readFileSync('./data/platforms.json','utf-8'));
         return res.status(200).send({
-            about,
+            aboutData,
             platforms
         });
     }catch(err){
@@ -39,8 +36,7 @@ export const about = async (req,res) => {
 //projects function
 export const projects = async (req,res) => {
     try{
-        const file = JSON.parse(fs.readFileSync('./data/projects.json','utf-8'));
-        return res.status(200).send(file);
+        return res.status(200).send(projectData);
     }catch(err){
         console.log(err);
         return res.status(500).json({error:"internal server error"})
@@ -50,9 +46,7 @@ export const projects = async (req,res) => {
 //skills function
 export const skills = async (req,res) => {
     try{
-        const file = await fs.promises.open('./data/skills.json','r');
-        const data = await file.readFile(file);
-        return res.status(200).send(JSON.parse(data));
+        return res.status(200).send(skillsData);
         file.close();
     }catch(err){
         console.log(err);
