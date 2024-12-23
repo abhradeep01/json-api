@@ -4,15 +4,17 @@ const aboutData = JSON.parse(fs.readFileSync('./data/about.json','utf-8'));
 const skillsData = JSON.parse(fs.readFileSync('./data/skills.json','utf-8'));
 const projectData = JSON.parse(fs.readFileSync('./data/projects.json','utf-8'));
 const platforms = JSON.parse(fs.readFileSync('./data/platforms.json','utf-8'));
+
 //home function
 export const home = async (req,res) => {
     try{
+        const filterData = projectData.slice(0,3);
         return res.status(200).send({
             header,
             aboutData,
             platforms,
             skillsData,
-            projectData
+            filterData
         });
     }catch(err){
         console.log(err);

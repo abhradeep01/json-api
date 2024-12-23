@@ -86,5 +86,33 @@
         ],
         "github":"https://github.com/abhradeep01/my-portfolio.git",
         "liveLink":"https://abhradeepsportfolio.netlify.app/"
+    },
+    {
+        "projectName":"Blog-site",
+        "projectUi":"https://i.postimg.cc/6pRZpp3s/Screenshot-2024-12-22-at-19-34-08-blogss-site.webp",
+        "technologies":[
+            {
+                "text":"React",
+                "color":"rgb(6 182 212)"
+            },
+            { 
+                "text":"Javascript",
+                "color":"rgb(234 179 8)"
+            },
+            {
+                "text":"Tailwindcss",
+                "color":"rgb(20 184 166)"
+            },
+            {
+                "text":"ExpressJs",
+                "color":"white"
+            },
+            {
+                "text":"MySql",
+                "color":"rgb(217 119 6)"
+            }
+        ],
+        "github":"https://github.com/abhradeep01/my-portfolio.git",
+        "liveLink":"https://abhradeepsportfolio.netlify.app/"
     }
 ]
